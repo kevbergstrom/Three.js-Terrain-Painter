@@ -1,0 +1,39 @@
+#c {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+#touch_controls {
+    position:absolute;
+    height:60px;
+    width:60px;
+    left:40px;
+    bottom:40px;
+    display: none;
+}
+
+#touch_controls_pointer {
+    position:absolute;
+    height:40px;
+    width:40px;
+    margin: 10px;
+}
+
+.touch_gray {
+    background: #adadad6c;
+    border-radius: 50%;
+}
+
+.white_border {
+    border: 1px solid rgba(255, 255, 255, 0.46);
+    border-radius: 50%;
+}
+
+.hsl_h, .hsl_s, .hsl_l {
+    width:75px;
+}
+
+.hsl_preview {
+    margin-bottom: 20px;
+}
